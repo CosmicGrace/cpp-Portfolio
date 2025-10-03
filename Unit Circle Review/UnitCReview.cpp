@@ -5,6 +5,7 @@ No unauthorized use, modification, distribution, or commercial use permitted.
 Copyrighted to CosmicGrace (https://github.com/CosmicGrace)
 */
 
+
 #include <iostream> // Standard Inputs
 #include <cstdlib> // yoinking the random
 #include <ctime> // Time Library
@@ -153,7 +154,7 @@ int main() {
             string coords11 = "(-V2/2,-V2/2)";
             string coords12 = "(-1/2,-V3/2)";
             string coords13 = "(0,-1)"; //270 degree
-            string coords14 = "(1/2,-V3/2()";
+            string coords14 = "(1/2,-V3/2)";
             string coords15 = "(V2/2,-V2/2)";
             string coords16 = "(V3/2,-1/2)";
     
@@ -285,10 +286,16 @@ int main() {
 
         if (userInput_QuestionType == "1" || userInput_QuestionType == multiType_Giving1) {
             type_Giving = multiType_Giving1;
+
+            multiType_Giving1 = multiType_Giving1;
+            multiType_Giving2 = multiType_Giving1;
             cout << endl << endl << " ~~ You picked " << type_Giving << "! ~~" << endl; //Just informing the user the question is over
 
         } else if (userInput_QuestionType == "2" || userInput_QuestionType == multiType_Giving2) {
             type_Giving = multiType_Giving2;
+
+            multiType_Giving1 = multiType_Giving2;
+            multiType_Giving2 = multiType_Giving2;
             cout << endl << endl << " ~~ You picked " << type_Giving << "! ~~" << endl; //Just informing the user the question is over
 
         } else if (userInput_QuestionType == "both") {
@@ -474,7 +481,7 @@ int main() {
     cout << "The dash, aka \" - \" < that line, will help instruct you when to answer. " << endl << endl;
 
     cout << "For the values themselves that little pi shape thing, yeah we are going" << endl;
-    cout << "to treat ~ as pi. The square root of (...) will also be subbed." << endl;
+    cout << "to just put \"pi\". The square root of (...) will also be subbed." << endl;
     cout << "This will be in the form of \" V \" (uppercase V)." << endl;
     cout << "You got that?" << endl;
 
@@ -565,11 +572,13 @@ int main() {
 
         // Finding what the heck was generated
         if (type_Practice == "radians" || type_Practice == "both") { //If user wants radians it here
+        
             if (user_GeneratedNumber == 1) {
                 correctAnswer = radian1;
 
                 // Other Correct Value finder :D
                 if (type_Giving == "degrees" || multiType_Giving1 == "degrees" || multiType_Giving2 == "degrees") { //if type giv is degree it go here
+
                     if (type_Giving == "degrees")
                         question_GeneratedValue1 = degrees1;
                     else if (multiType_Giving1 == "degrees")
