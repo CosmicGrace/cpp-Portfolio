@@ -3,6 +3,13 @@
 This project is not open source. All rights reserved.
 No unauthorized use, modification, distribution, or commercial use permitted.
 Copyrighted to CosmicGrace (https://github.com/CosmicGrace)
+
+This code was created for class. During which I used only learned stuff.
+Learned: Basics, Data Types & Arithmetic Experessions, Branching, & Loops.
+So, that means I didn't know of any file including or function creation.
+
+Its not fully complete due to time constraints. Hopefully with updated knowledge
+in C++ I can hopefully come back to this and make it cleaner.
 */
 
 
