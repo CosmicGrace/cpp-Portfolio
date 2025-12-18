@@ -1,4 +1,9 @@
 /* ****************************************
+⚠️ Copyright Notice
+This project is not open source. All rights reserved.
+No unauthorized use, modification, distribution, or commercial use permitted.
+Copyrighted to CosmicGrace (https://github.com/CosmicGrace)
+
 
 Filename: functions.cpp
 Author: CosmicGrace
@@ -156,3 +161,4 @@ string getUserLocation() {
     TEXT
 
 ----------------------------- */
+
